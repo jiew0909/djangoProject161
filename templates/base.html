@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet"
+        href="{% static 'stylesheets/bt523/css/bootstrap.css' %}">
+    <script src="{% static 'stylesheets/bt523/js/bootstrap.bundle.js'%}"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                {% include 'header.html' %}
+                <h1></h1>
+                <br><br>
+            </div>
+        </div>
+
+        <div class="row">
+{#            <div class="col-lg-3 bg-info">#}
+{#                {% include 'menu.html' %}#}
+{#            </div>#}
+            <div class="col-lg-12" style="background-color: #287094">
+                {% block content %} {% endblock  %}
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
