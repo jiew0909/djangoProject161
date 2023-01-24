@@ -15,7 +15,7 @@ def rolemodel(request):
 
 def showMyData(request):
     showID = '65342310161-9'
-    showName = "chiraporn chamkun"
+    showName = "จิระพร  ชำกุล"
     showAddress = "39 หมู่ 11 ต.กุดปลาดุก อ.เมือง จ.อำนาจเจริญ"
     showtel = "0969010112"
     showgender = "หญิง"
@@ -23,29 +23,29 @@ def showMyData(request):
     showWeight = 55
     showHeight = 160
     showstatus = "นักศึกษา"
-    showSchool = "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสานขอนแก่นวิทยาเขต"
+    showSchool = "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน วิทยาเขตขอนแก่น"
 
     products = []
 
-    product =['pro001','vans',1500.00]
+    product =['vans',3500.00,'../../static/images/vans.png']
     products.append(product)
-    product =['pro002','Converse', 2400.00]
+    product =['Converse', 3400.00,'../../static/images/conver.png']
     products.append(product)
-    product =['pro003','Nike',3200.00]
+    product =['Nike',3500.00,'../../static/images/nike.png']
     products.append(product)
-    product =['pro004','Adidas',1650.00]
+    product =['Adidas',1650.00,'../../static/images/adidas.png']
     products.append(product)
-    product =['pro005','keds', 2300.00]
+    product =['keds', 3210.00,'../../static/images/kede.png']
     products.append(product)
-    product = ['pro006', 'puna', 2500.00]
+    product = [ 'puna', 2500.00,'../../static/images/puma.png']
     products.append(product)
-    product = ['pro007', 'New balance', 1300.00]
+    product = ['New balance', 1600.00,'../../static/images/new.png']
     products.append(product)
-    product = ['pro008', 'onitsuka', 3000.00]
+    product = [ 'onitsuka', 3150.00,'../../static/images/oski.png']
     products.append(product)
-    product = ['pro009', 'Reebok', 2400.00]
+    product = [ 'Reebok', 999.00,'../../static/images/rebook.png']
     products.append(product)
-    product = ['pro010', 'lacoste', 4300.00]
+    product = [ 'lacoste', 1900.00,'../../static/images/จระเข้.png']
     products.append(product)
 
     context = {'showID':showID,'showName':showName,'showAddress':showAddress,'showtel':showtel,
