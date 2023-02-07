@@ -9,6 +9,28 @@ urlpatterns = [
     path('sale', views.sale, name ='sale'),
     path('rolemodel', views.rolemodel, name ='rolemodel'),
     path('showMyData',views.showMyData, name='showMyData'),
+    path('listProduct',views.listProduct, name='listProduct'),
+    path('inputProduct', views.inputProduct, name='inputProduct'),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ]
